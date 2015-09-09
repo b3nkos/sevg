@@ -40,7 +40,7 @@
             </div>
         </div>
     </div>
-    <hr>
+
 </div>
 
 <!-- Modal -->

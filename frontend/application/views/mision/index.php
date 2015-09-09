@@ -1,37 +1,61 @@
 <div class="container">
-    <!-- Example row of columns -->
     <div class="row">
-    <div class="col-md-2">
-    </div>
-        <div class="col-md-8">
-            <h2>Misión</h2>
+
+        <div class="col-md-12">
+            <h2>Quienes somos</h2>
             <p>
-                La Corporación tiene como misión ayudar a la humanidad en la prevención, atención y 
-                recuperación de desastres generados por la naturaleza o la acción del hombre 
-                orientando sus esfuerzos a la mitigación del dolor físico, psicológico y espiritual, 
-                procurando restablecer la dignidad del hombre con el hábitat y su creador.
-            </p>
-            <p>
-                La Corporación tiene su soporte filosófico en los fundamentos del cristianismo, 
-                orientando su labor a la filantropía y el servicio al prójimo 
-                sin distinción de raza, nacionalidad, religión, 
-                creencias o corrientes políticas.
+                Somos una Corporación Civil sin animo de lucro, de derecho privado y carácter autónomo:
+                Adscrita a la SINPAD del Ministerio del Interior y de Justicia de la Republica de Colombia.
+                Articulada a la IASD a través del Ministerio Joven de la Unión Colombiana. Coopera con
+                ADRA, bajo convenio de mutuo acuerdo.
+                Es nuestro compromiso por tener una mejora continua y prestar servicios eficientes que
+                nos permitan seguir consolidándonos como una empresa líder, exitosa y de gran
+                satisfacción para nuestros clientes. Contamos con vehículos idóneos , con equipos
+                médicos y personal paramédico capacitado para la atención de urgencias.
+                Esperamos que este portafolio de servicios, sea de su agrado y beneficio. Para nosotros
+                es importante contar con su apoyo, y será grato servirle.
             </p>
         </div>
-<!--         <div class="col-md-6">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-default" href="http://getbootstrap.com/examples/jumbotron/#" role="button">View details »</a></p>
-        </div> -->
-    </div>
-    <hr>
-    <div class="row">
-        <div class="col-md-2">
+
+        <div class="col-md-12">
+            <h2>Mision</h2>
+            <p>
+                La corporación RESCATE GARSA es una institución prestadora de servicios de
+                salud que a través de la rápida y efectiva atención pre hospitalaria, transporte
+                seguro y rescate en situaciones de emergencias, urgencias y desastres, ayuda en la
+                mitigación del dolor, el restablecimiento del entorno y facilita la continuidad de la
+                cadena de supervivencia, salvaguardando la vida de sus pacientes sin distinción de
+                ninguna índole; apoyados en un grupo de voluntarios altamente calificado,
+                procedimientos eficientes e innovación tecnológica, enmarcados en los principios
+                cristianos adventistas, contribuyendo al desarrollo de la obra medico misionera en la
+                región
+            </p>
         </div>
-        <div class="col-md-8">
-            <img height="500" width="750" src="http://www.rescategarsaarauca.org/fotos/grupal.jpg">
+
+        <div class="col-md-12">
+            <h2>Vision</h2>
+            <p>
+                Para el 2015 la corporación RESCATE GARSA será la primera IPS dentro de los
+                grupos de socorro a nivel nacional, reconocida por la rapidez y efectividad de sus
+                acciones, en beneficio de nuestros usuarios, su familia, los afectados y/o
+                damnificados.
+            </p>
         </div>
+
+        <div class="col-md-12">
+            <h2>Politica</h2>
+            <p>
+                La corporación RESCATE GARSA se compromete con el mejoramiento continuo
+                de sus procesos para atender las situaciones de emergencias y desastres que
+                los requieran de una manera rápida, efectiva y segura, mediante acciones
+                integrales y eficientes, con voluntarios de alto valor y ejemplo cristiano
+                comprometidos con la comunidad a la que sirven, de manera que satisfagan las
+                expectativas y cumplan los requerimientos legales vigentes, preservando la vida
+                y el entorno, a través del establecimiento de un Sistema de Gestión de la
+                Calidad.
+            </p>
+        </div>
+
     </div>
 
-    <hr>
 </div> <!-- /container -->
