@@ -98,7 +98,7 @@ class Usuario_controller extends Controller {
 				}
 			}
 		}
-	}       
+	}
 
 	public function consultar_usuario() {
 
@@ -106,13 +106,12 @@ class Usuario_controller extends Controller {
 		$parametro1 = empty($parametro1) ? NULL : $parametro1;
 		$user_id    = ( isset($_POST['user_id']) ) ? $_POST['user_id'] : NULL;
 
-
 		if( is_null($parametro1) && is_null($user_id) ) {
 			echo json_encode( array('error'=>true) );
 			return false;
 		} else if ( !is_null($user_id) ) {
 			echo json_encode( array(
-				$this->_usuario_model->consultar_usuario(NULL, $user_id),
+				$this->_usuario_model->consultar_usuario($user_id, NULL),
 				$this->_usuario_model->get_perfiles_usuario($user_id)
 			));
 			return true;
@@ -133,8 +132,8 @@ class Usuario_controller extends Controller {
 	}
 
 	public function get_perfiles_usuario() {
-		$user_id = isset($_POST['user_id']) ? empty( trim($_POST['user_id']) ) 
-		? NULL : trim($_POST['user_id']) : NULL; 
+		$user_id = isset($_POST['user_id']) ? empty( trim($_POST['user_id']) )
+		? NULL : trim($_POST['user_id']) : NULL;
 
 		echo json_encode( $this->_usuario_model->get_perfiles_usuario($user_id) );
 	}
