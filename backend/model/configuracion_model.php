@@ -22,6 +22,11 @@ class Configuracion_model extends Model {
         parent::__construct();
     }
 
+    /**
+    * Insert a configuration for especific business entity
+    * @param string name of the table to business
+    * @return boolean
+    */
     public function insert_configuration($table_name) {
         $table_name = strtolower($table_name);
         $query = NULL;
@@ -62,7 +67,7 @@ class Configuracion_model extends Model {
             case 'perfil':
                 $query = $this->_db->prepare("CALL InsertarPerfil(?, ?)");
                 break;
-            
+
             case 'presentacion':
                 $query = $this->_db->prepare("CALL InsertarPresentacion(?, ?)");
                 break;
@@ -116,7 +121,7 @@ class Configuracion_model extends Model {
             case 'perfil':
                 $query = $this->_db->prepare("CALL ModificarPerfil(?, ?, ?)");
                 break;
-            
+
             case 'presentacion':
                 $query = $this->_db->prepare("CALL ModificarPresentacion(?, ?, ?)");
                 break;
